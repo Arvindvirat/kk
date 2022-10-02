@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <style>
+        /* 1.CSS only for nevigation bar*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: none;
+            scroll-behavior: smooth;
+        }
+
+        .nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: 25px;
+            background-color: darkgreen;
+            text-align: right;
+            height: 2cm;
+        }
+
+
+        .logo img {
+            margin-top: -55px;
+            margin-left: -1100px;
+            height: 85px;
+            width: 120px;
+            border-radius: 100px;
+            position: fixed;
+
+        }
+
+        .nav a {
+            padding: 10px;
+            color: white;
+            font-size: 23px;
+            text-transform: capitalize;
+        }
+
+        .nav a:hover {
+            background-color: red;
+        }
+    </style>
+
+    <style>
+        /*2.CSS for eight heading*/
+        .eight {
+            border: 1px red;
+        }
+
+        .bg a:hover {
+            background-color: goldenrod;
+        }
+
+        .color a {
+            color: red;
+        }
+
+        table {
+            border-spacing: 10px;
+
+        }
+
+        table th {
+            border: 1px solid black;
+            border-radius: 30px;
+            height: 2cm;
+            max-width: 2cm;
+            text-align: center;
+        }
+
+        table th a {
+            color: white;
+        }
+
+        .border tr th {
+            border: 1px solid red;
+            text-align: left;
+            height: 10cm;
+            max-width: 10cm;
+            border-radius: 0%;
+            border-spacing: 1px;
+            column-gap: 1px;
+
+        }
+
+        .border tr th a {
+            color: blue;
+        }
+
+        /*style for desktop or andoroid*/
+        @media screen and (min-width: 768px) {
+            body {
+                width: 100%;
+            }
+
+        }
+        .red{
+            caption-side: bottom;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <a target="_blank" href="https://www.bsdigital.com">Home</a>
+        <a target="_blank" href="https://uidai.gov.in/">aadhar sewa</a>
+        <a target="_blank" href="https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html">Pan sewa</a>
+        <a target="_blank" href="#aadhar sewa">Latest Results</a>
+        <a target="_blank" href="https://register.eshram.gov.in/#/user/self">E-sharam card</a>
+        <a target="_blank" href="https://uplabour.gov.in/">Labour Card</a>
+        <div class="logo"><img src="logo.jpg" alt=""></div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--marquee tag for left to right and right to left-->
+    <div class="bg color">
+        <h3 style="color:red;">
+            <marquee behavior="alternate" direction="right"><a target="_blank" href="https://uidai.gov.in/en/">Aadhar
+                    Sewa||</a><a target="_blank" href="asdfd">Sainik school||</a><a target="_blank" href="asdfd">Pan
+                    sewa||</a><a target="_blank" href="asdfd">Simartalla school||</a></marquee>
+        </h3>
+        <h3 style="color:red;">
+            <marquee behavior="alternate" direction="left"><a target="_blank" href="ldk" ;">CCS University latest
+                    update||
+                </a><a target="_blank" href="asdfd">Sainik school||</a><a target="_blank" href="asdfd">Pan
+                    sewa||</a><a target="_blank" href="asdfd">Simartalla school||</a></marquee>
+        </h3>
+        <h3 style="color:red;">
+            <marquee behavior="alternate" direction="right"><a target="_blank" href="ldk" ;">DDU University latest
+                    update||
+                </a><a target="_blank" href="asdfd">Sainik school||</a><a target="_blank" href="asdfd">Pan
+                    sewa||</a><a target="_blank" href="asdfd">Simartalla school||</a>
+            </marquee>
+        </h3>
+    </div>
+    <!--top eight heading-->
+    <table style="width: 100%;">
+        <tr>
+            <th style="background-color: blue;"><a href="https://uidai.gov.in/en/">Aahar sewa</a></th>
+            <th style="background-color: red;"><a href="Aadhar sewa">Pan sewa||Sainik school||Sainik school||Sainik
+                    school||Sainik school</a></th>
+            <th style="background-color: darkgreen;"><a href="Aadhar sewa">Sainik school</a></th>
+            <th style="background-color: rgb(16, 126, 84);"><a href="Aadhar sewa">Netarhat||Sainik school||Sainik
+                    school</a>
+            </th>
+        </tr>
+        <tr>
+            <th style="background-color: rgb(196, 24, 206);"><a href="Aadhar sewa">CCSU university||Latest sarkari
+                    job||Latest sarkari job</a></th>
+            <th style="background-color: rgb(172, 21, 36);"><a href="Aadhar sewa">CCSU university||Latest sarkari
+                    job||Latest sarkari job</a></th>
+            <th style="background-color: blue;"><a href="Aadhar sewa">Latest army vacancy</a></th>
+            <th style="background-color: red;"><a href="Aadhar sewa">Latest sarkari job||Latest sarkari job||Latest
+                    sarkari job</a></th>
+        </tr>
+
+    </table>
+    <table class="border" style="width: 100%;">
+        <tr>
+            <th>
+                <ul>
+                    <caption class="cap" style="color: red;">Latest result</caption>
+                    <li><a href="lkdjfjk">army vacancy</a></li>
+                    <li><a href="lkdjfjk">army vacancy</a></li>
+                    <li><a href="lkdjfjk">army vacancy</a></li>
+                    <li><a href="lkdjfjk">army vacancy</a></li>
+                    <li><a href="lkdjfjk">army vacancy</a></li>
+                    <li><a href="lkdjfjk">army vacancy</a></li>
+                    <li><a href="lkdjfjk">army vacancy</a></li>
+                    <li><a href="lkdjfjk">army vacancy</a></li>
+                    <li><a href="lkdjfjk">army vacancy</a></li>
+                    <li><a href="lkdjfjk">army vacancy</a></li>
+
+                </ul>
+            </th>
+            <th>govind</th>
+            <th>govind</th>
+        </tr>
+    </table>
+    <h2 style>Our vision</h2>
+</body>
+
+</html>
